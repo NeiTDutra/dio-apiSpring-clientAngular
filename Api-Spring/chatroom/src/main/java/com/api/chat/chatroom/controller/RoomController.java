@@ -4,7 +4,6 @@ import com.api.chat.chatroom.exception.ResourceNotFoundException;
 import com.api.chat.chatroom.model.Room;
 import com.api.chat.chatroom.repository.RoomRepository;
 
-import org.aspectj.weaver.reflect.ReflectionWorld;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -36,7 +35,7 @@ public class RoomController {
         return roomRepository.findAll();
     }
 
-    @GetMapping("/rooms/id")
+    @GetMapping("/rooms/{id}")
     public ResponseEntity<Room> getRoomById(@PathVariable(value = "id") long roomId)
         throws ResourceNotFoundException {
 
