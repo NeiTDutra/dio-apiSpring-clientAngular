@@ -149,4 +149,4 @@ Desenvolvimento de cliente web com Angular para utilizar a api: criar, listar, e
 
 ## Alterações
 
-?...
+:construction: Desenvolvendo login social com o módulo [Angular Social Login](https://github.com/abacritt/angularx-social-login) :construction:
