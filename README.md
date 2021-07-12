@@ -147,4 +147,6 @@ Desenvolvimento de cliente web com Angular para utilizar a api: criar, listar, e
 
 ```
 
-:construction: Em desenvolvimento... :construction:
+## Alterações
+
+?...
